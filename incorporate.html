@@ -21,6 +21,14 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
+    <!-- Gestor de Correo MailChimp -->
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    #mc_embed_signup{font:"Lato","Helvetica Neue",Helvetica,Arial,sans-serif; }
+         /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+      We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -55,7 +63,7 @@
                         <a href="#about">Inicio</a>
                     </li>
                     <li>
-                        <a href="#formulario">Incorporate</a>
+                        <a href="#sumate">Sumate</a>
                     </li>
                     <li>
                         <a href="#contact">Contactos</a>
@@ -84,24 +92,38 @@
                     </div>
                 </div>
             </div>
-
         </div>
         <!-- /.container -->
-
     </div>
     <!-- /.intro-header -->
 
     <!-- Formulario de Alta -->
-    <a  name="formulario"></a>
+    <a  name="sumate"></a>
+    <hr class="intro-divider">
     <div class="colormenu">
-        <br>
+        <div class="contenedor">
+             <!-- Begin Mailchimp Signup Form -->
+            <div id="mc_embed_signup">
+                <h3><p>Por favor, antes de completar el formulario</p>
+                <p>de Alta registre su Correo Electrónico:</p></h3>
+                <form action="https://wordpress.us19.list-manage.com/subscribe/post?u=936a81a9d15095637c8a1e39d&amp;id=e8bf5a72a4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">       
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                            <input type="text" name="b_936a81a9d15095637c8a1e39d_e8bf5a72a4" tabindex="-1" value="">
+                        </div>                    
+                        <div >
+                            <button type="submit" value="Registrar e-mail" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#avisoModal">Registrar E-mail</button>
+                        </div>
+                    </div>
+                </form>
+                <hr class="intro-divider"> 
+            </div>
+            <!--End mc_embed_signup-->
+        </div>
+           
         <div class="contenedor">
             <form action="index.html" method="get">
-                <h2><p>Por favor, antes de completar el formulario</p>
-                <p>de Alta registre su Correo Electrónico:</p></h2>
-                <br>
-                    <input class="btn btn-default btn-lg" type="submit" value="Registrar su E-mail">
-                <br><br><br>
                 <p><h3>Ingrese sus datos personales:</h3></p>
                 <br>
                 <div class="form-group">
@@ -137,7 +159,7 @@
                 </div> 
                 <br>
                 <div class="form-group">
-                    <input class="btn btn-primary btn-lg" type="submit" value="Registrarse">
+                    <button type="submit" class="btn btn-primary btn-lg"> Registrarse </button>
                     <input class="btn btn-primary btn-lg" type="reset" value="Limpiar">    
                 </div>
             </form>
@@ -145,15 +167,37 @@
         <br>
     </div>
     <!-- Fin Formulario de Alta -->
+    <!-- Modal -->
+<!-- Modal -->
+    <div class="modal fade" id="avisoModal" tabindex="-1" role="dialog" aria-labelledby="avisoModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header colorModal">
+            <h5 class="modal-title" id="exampleModalLabel"><b>Alta al Equipo B-10</b></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <b>Felicidades. Estás a un paso de Sumarte al Equipo B-10.</b>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fin Modal -->
     
     <a  name="contact"></a>
-    <div class="banner">
+    <div class="banner-footer">
 
         <div class="container">
 
             <div class="row">
                 <div class="col-lg-7">
-                    <h2>BIENVENIDO AL EQUIPO B-10...</h2>
+                    <h1>BIENVENIDO AL EQUIPO B-10...</h1>
+                    <h3>Contacto:  Cel - 3834006722</h3>
                 </div>
             </div>
 
@@ -178,7 +222,7 @@
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#integrantes">integrantes</a>
+                            <a href="#sumate">Sumate</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>

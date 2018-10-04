@@ -8,6 +8,7 @@ body,
 html {
     width: 100%;
     height: 100%;
+    background-color: #b5b5b9;
 }
 
 body,
@@ -27,6 +28,10 @@ a {
 
 p.copyright {
     color: #000;
+}
+
+.colorModal {
+    background-color: #668EB5;
 }
 
 .colormenu {
@@ -56,7 +61,7 @@ form {
 }
 
 .lead {
-    font-size: 18px;
+    font-size: 1.5em;
     font-weight: 400;
 }
 
@@ -66,7 +71,7 @@ form {
     text-align: center;
     color: #f8f8f8;
     text-shadow: 20px;
-    background: url(../img/lapb.jpg) no-repeat center center;
+    background: url(../img/tecb.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -83,7 +88,7 @@ form {
 }
 
 .intro-divider {
-    width: 400px;
+    width: 600px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
@@ -110,6 +115,26 @@ img:hover{
     -moz-box-shadow: 5px 5px 5px #888888;
     -webkit-box-shadow: 5px 5px 5px #888888;
     -ms-box-shadow: 5px 5px 5px #888888;
+}
+
+.cuadroFotos {
+    float: right;
+}
+
+.bordesFotos{
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 25px;
+    padding: 10px;
+    padding-right: 100px;
+    padding-left: 80px;
+    background: #f8f8f8;
+}
+
+.bordes{
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 25px;
+    padding: 20px;
+    background: #f8f8f8;
 }
 
 
@@ -146,18 +171,14 @@ img:hover{
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #b5b5b5;
-}
-
-.content-section-b {
-    padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
     background-color: #b5b5b9;
 }
 
+
+
 .section-heading {
     margin-bottom: 30px;
+
 }
 
 .section-heading-spacer {
@@ -167,10 +188,20 @@ img:hover{
 }
 
 .banner {
-    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/foot.jpg) no-repeat center center;
+    background-size: cover;
+    height: 150px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.banner-footer {
     color: #f8f8f8;
     background: url(../img/tecb.jpg) no-repeat center center;
     background-size: cover;
+    height: 200px;
+    padding-top: 30px;
 }
 
 .banner h2 {
@@ -186,6 +217,13 @@ img:hover{
 .banner-social-buttons {
     float: right;
     margin-top: 0;
+}
+
+.objetivos {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: justify;
+    font-size: 1.5em;
 }
 
 @media(max-width:1199px) {
